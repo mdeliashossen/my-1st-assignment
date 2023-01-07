@@ -1,0 +1,213 @@
+
+/* banner part */
+.banner{
+    background-image: url(./banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+}
+
+/* banner text and button part */
+.banner-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.banner-paragraph{
+position: absolute;
+width: 510px;
+height: 78px;
+left: 860px;
+top: 485px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+color: #FFFFFF;
+    
+
+}
+.banner-button{
+position: absolute;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 600px;
+color: #005FAC;
+font-weight: 600;
+font-family: 'Work Sans';
+font-size: 20px;
+}
+/* image and failure section */
+.image-and-failures{
+    display: flex;
+    
+}
+.person-image{
+position: absolute;
+width: 569px;
+height: 723.3px;
+left: 206px;
+top: 939px;
+}
+.failure-details{
+position: absolute;
+width: 416px;
+height: 400px;
+left: 862px;
+top: 1178px;
+}
+.failure-title{
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 40px;
+    width: 288px;
+}
+.failure-description{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 26px; 
+}
+/* list styles */
+.failure-list{
+font-family: 'Work Sans';
+line-height: 30px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+.icon-li{
+    color: rgb(100, 224, 100);
+    margin-right: 10px;
+    
+}
+/* my plans */
+.plan-title{
+position: absolute;
+width: 200px;
+height: 47px;
+left: 765px;
+top: 1792px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+}
+
+.plans{
+margin-top: 1150px;
+margin-left: 320px;
+text-align: center;
+display: flex;
+gap: 150px;
+font-family: 'Work Sans';
+
+}
+.plans-title{
+    font-weight:bolder;
+    font-size: 20px;
+
+}
+/* contact */
+.contact-section{
+position: absolute;
+width: 1140px;
+height: 300px;
+left: 270px;
+top: 2250px;
+background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(watch.png);
+border-radius: 8px;
+}
+.title-banner-header{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Work Sans';
+    max-width: 700px;
+    margin-left: 64px;
+    margin-top: 59px;
+    font-weight: 700;
+}
+.call-btn{
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 36px 20px 36px;
+    border: none;
+    margin-left: 64px;
+    margin-bottom: 130px;
+   
+}
+/* social and others */
+.footer-information{
+    background: black;
+    position: absolute;
+    width: 1600px;
+    height: 500px;
+    left: 0px;
+    top: 2651.96px;
+}
+.div-flex{
+    display: flex;
+    font-family: 'Work Sans'  ;
+    text-align: left;
+   margin: 130px 229px 130px 230px;
+    color: #FFFFFF;
+   
+    
+}
+/* social icon */
+.social-icon{
+   display: flex;
+   position: absolute;
+   left: 230px;
+   top: 400px;
+   gap: 15px;
+  
+}
+.footer-title{
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.footer-paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+}
+.email-box{
+    padding: 10px;
+    background: none;
+    width: 250px;
+    padding: 15px;
+
+    
+}
+.subscribe-and-mail{
+    margin-left: 250px;
+    padding: 15px;
+}
+.subscribe-btn{
+    font-size: 20px;
+    font-weight: 600;
+    background: #005FAC;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
